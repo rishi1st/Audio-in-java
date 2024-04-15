@@ -15,16 +15,19 @@ public class AudioInJava {
             String response = "";
 
             while (!response.equals("Q")) {
-                System.out.println("P = play , S = Stop , R = Reset , Q = Quit");
-                System.out.print("Enter Your choice : ");
+                System.out.println("\n\n\n\n\t\t\t\t\t\t\t\t\t\tThis is Audio System");
+                System.out.println("\n\n\n\nP = play , S = Stop , R = Reset , Q = Quit");
+                System.out.print("\n\n\n\nEnter Your choice : ");
 
                 response = sc.next().toUpperCase();
 
                 switch (response) {
                     case "P":
+                    System.out.println("\n\n\t\t\t\t\t\t\t\t\t\tMusic is Running... ");
                         clip.start();
                         break;
                     case "S":
+                    System.out.println("\n\n\t\t\t\t\t\t\t\t\t\tMusic Stopped. . .");
                         clip.stop();
                         break;
                     case "R":
